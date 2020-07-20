@@ -6,7 +6,7 @@
   The following is an explanation of exactly how the code works and how each file interacts with the main program
 
 
-  ## The snake object
+  ## The Snake object
 
   1. The snake object keeps track of several data points of the snake:
      * The direction that the snake is facing 
@@ -22,7 +22,7 @@
       * moving the snake in the current set direction
       * along with accessor or getter methods for snake data required for outside logic
 
-  ## The food object
+  ## The Food object
   #### The food object is relatively simple - it serves two purposes:
 
   1. It provides a new random placement for the food within the game 
@@ -43,7 +43,7 @@
       2. The draw function --> draws one frame of the game on the html canvas within index.html
   4. And sets up two intervals to utilize the update and draw function to run the game and continuously display it to the user
 
-  ## The index.html file and the style.css
+  ## The index.html and the style.css files
   These files work together to center a title and some text over the canvas element, which expands or contracts based on the window size to fill the entire viewport
 
   Due to the code that dictates how the canvas is formatted, the initial size of the game area will be constant and the canvas element will stretch or contract the shapes within itself to maintain the aspect ratio that it initialized with, despite window resizes or viewport resizes
