@@ -3,7 +3,7 @@ class Snake{
 
 		this._snakeHead = { row:snakeYLoc, col:snakeXLoc };
 		this._snakeBody = [];
-		this._snakeSize = 1000;
+		this._snakeSize = 4;
 
 		this._directionPointing = null;
 		this._snakeLiveState = true;
