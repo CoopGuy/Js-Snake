@@ -1,7 +1,5 @@
 # Js-Snake
   A javascript browser based version of the classic game "Snake"
-  To play the game simply download the .zip, unzip it, and open index.html in yor preferred browser
-
 
   The following is an explanation of exactly how the code works and how each file interacts with the main program
 
@@ -47,3 +45,10 @@
   These files work together to center a title and some text over the canvas element, which expands or contracts based on the window size to fill the entire viewport
 
   Due to the code that dictates how the canvas is formatted, the initial size of the game area will be constant and the canvas element will stretch or contract the shapes within itself to maintain the aspect ratio that it initialized with, despite window resizes or viewport resizes
+
+  ## Playing the game
+   There are two ways to play the game:
+   1. Download the .zip, unzip it, and open index.html in your preferred web browser
+      ##### OR
+   2. Go to this github hosted link: https://ironcladcode.github.io/Js-Snake/
+
