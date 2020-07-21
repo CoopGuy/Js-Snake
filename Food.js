@@ -12,7 +12,7 @@ class Food{
 		this._foodLocation.row = rNG(this._maxYSize);
 		this._foodLocation.col = rNG(this._maxXSize);
 		snakeBody.forEach((item) => {
-			if (snakeBody.row == this._foodLocation.row && snakeBody.col == this._foodLocation.col){
+			if (item.row == this._foodLocation.row && item.col == this._foodLocation.col){
 				this.resetLocation(snakeBody, snakeHead);
 			}
 		});
