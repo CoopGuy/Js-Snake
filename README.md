@@ -1,5 +1,5 @@
 # Js-Snake
-  A javascript browser based version of the classic game "Snake"
+  A JavaScript browser based version of the classic game "Snake"
 
   The following is an explanation of exactly how the code works and how each file interacts with the main program
 
@@ -34,7 +34,7 @@
 
   #### This file establishes the actual game, as such it accomplishes multiple goals:
 
-  1. It creates definitions for the game objects
+  1. It creates variables for the game objects
   2. Establishes a DOM eventlistener which checks the arrow keys for input and queues each respective move in the GLOBALDIRECTION array
   3. Defines two functions that form the game:
       1. The update function --> moves the snake object in the set direction, shifts the GLOBALDIRECTION array, and checks whether the snake has eaten the food
